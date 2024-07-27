@@ -3,7 +3,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 function App() {
-  AOS.init({ duration: 1000 });
+  AOS.init({ duration: 3000 });
   return (
     <div className="relative w-full text-center  h-screen bg-[url('/hero.webp')] bg-cover bg-top flex justify-start items-center flex-col">
       <img
